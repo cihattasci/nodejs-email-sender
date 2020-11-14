@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-email-sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cihattasci/nodejs-email-sender.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cihattasci/nodejs-email-sender/issues"
+  },
+  "homepage": "https://github.com/cihattasci/nodejs-email-sender#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
